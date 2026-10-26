@@ -18,3 +18,6 @@
   
   Sementara itu, jQuery adalah pustaka (library) berbasis JavaScript yang diciptakan untuk menyederhanakan penulisan kode tersebut. jQuery membungkus fungsi-fungsi   JavaScript yang kompleks menjadi jauh lebih ringkas, serta otomatis mengatasi masalah kompatibilitas di berbagai browser.
 Singkatnya, JavaScript adalah bahasanya, sedangkan jQuery adalah alat bantu instan yang dibuat dari bahasa tersebut untuk mempercepat pengembangan web.
+-------------------------------------------------------------------------------------------------------------------------------------------
+soal 1 : <img width="557" height="357" alt="image" src="https://github.com/user-attachments/assets/6b2df8cd-b6b7-4563-8b76-af67f911424f" />
+soal 2 : <img width="553" height="526" alt="image" src="https://github.com/user-attachments/assets/774c592f-2fab-430f-859a-a96bb27c7824" />
