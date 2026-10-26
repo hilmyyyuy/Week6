@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Nama dan NIM</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f5f6f7;
+      font-family: Arial, sans-serif;
+    }
+
+    .form-card {
+      width: 300px;
+      padding: 16px 24px;
+      background-color: white;
+      border: 6px solid #75c2d5;
+      border-radius: 4px;
+    }
+
+    .form-card h2 {
+      margin: 0 0 10px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    .form-card label {
+      display: block;
+      margin-top: 12px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .form-card input {
+      display: block;
+      width: 100%;
+      margin-top: 6px;
+      padding: 8px 2px;
+      border: none;
+      border-bottom: 1px solid #c9c9c9;
+      background: transparent;
+      font-size: 14px;
+      outline: none;
+    }
+
+    .form-card input:focus {
+      border-bottom: 2px solid #198754;
+    }
+  </style>
+</head>
+<body>
+  <main class="form-card">
+    <h2>Nama</h2>
+    <form>
+      <label for="nama">Nama</label>
+      <input type="text" id="nama" name="nama" readonly>
+
+      <label for="nim">NIM</label>
+      <input type="text" id="nim" name="nim" readonly>
+    </form>
+  </main>
+
+  <script>
+    // Meminta nama dan NIM saat halaman dibuka.
+    const nama = prompt("Masukkan nama kamu:");
+    const nim = prompt("Masukkan NIM kamu:");
+
+    // Menampilkan jawaban ke dalam form.
+    document.getElementById("nama").value = nama ? nama.trim() : "";
+    document.getElementById("nim").value = nim ? nim.trim() : "";
+  </script>
+</body>
+</html>

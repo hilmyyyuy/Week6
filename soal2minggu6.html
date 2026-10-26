@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bermain warna</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #eff8ff;
+      text-align: center;
+      margin: 0;
+      padding: 30px 10px;
+    }
+    h1 {
+      font-size: 22px;
+      color: #222;
+    }
+    button {
+      padding: 7px 14px;
+      margin: 4px 8px;
+      border: none;
+      border-radius: 4px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .btn-warna { color: white; }
+    #ungu  { background-color: #7c3aed; }
+    #biru  { background-color: #2563eb; }
+    #hijau { background-color: #15803d; }
+    .btn-toggle {
+      background-color: #efefef;
+      color: #000;
+    }
+    #kotak {
+      width: 200px;
+      height: 200px;
+      margin: 20px auto;
+      border: 2px solid #111;
+      border-radius: 6px;
+      background-color: #15803d;
+    }
+    p {
+      font-size: 12px;
+      margin: 6px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>bermain warna</h1>
+
+  <div>
+    <button id="ungu" class="btn-warna">Ungu</button>
+    <button id="biru" class="btn-warna">Biru</button>
+    <button id="hijau" class="btn-warna">Hijau</button>
+  </div>
+
+  <div id="kotak"></div>
+
+  <div>
+    <button id="sembunyikan" class="btn-toggle">ciluk</button>
+    <button id="tampilkan" class="btn-toggle">baa</button>
+  </div>
+
+  <p>pencet penceten wes bebas.</p>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $("#ungu").click(function () {
+        $("#kotak").css("background-color", "#7c3aed");
+      });
+      $("#biru").click(function () {
+        $("#kotak").css("background-color", "#2563eb");
+      });
+      $("#hijau").click(function () {
+        $("#kotak").css("background-color", "#15803d");
+      });
+
+      $("#sembunyikan").click(function () {
+        $("#kotak").hide();
+      });
+      $("#tampilkan").click(function () {
+        $("#kotak").show();
+      });
+
+    });
+  </script>
+
+</body>
+</html>
