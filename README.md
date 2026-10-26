@@ -15,9 +15,10 @@
 3.	Jelaskan Perbedaan JavaScript dan JQuery
 
   JavaScript adalah bahasa pemrograman inti yang digunakan untuk membuat halaman web menjadi interaktif. Karena berjalan langsung di browser, JavaScript memberikan performa cepat dan kendali penuh, namun memerlukan baris kode yang lebih panjang dan rumit untuk melakukan tugas-tugas dasar.
+
+  Sementara itu, Jquery adalah library berbasis javascript diciptakan untuk menyederhanakan penulisan kode tsb. jquery membungkus fungsi javascript yang kompleks menjadi jauh lebih ringkas, serta otomatis mengatasi masalah kompatibilitas di berbagai browser.
   
-  Sementara itu, jQuery adalah pustaka (library) berbasis JavaScript yang diciptakan untuk menyederhanakan penulisan kode tersebut. jQuery membungkus fungsi-fungsi   JavaScript yang kompleks menjadi jauh lebih ringkas, serta otomatis mengatasi masalah kompatibilitas di berbagai browser.
-Singkatnya, JavaScript adalah bahasanya, sedangkan jQuery adalah alat bantu instan yang dibuat dari bahasa tersebut untuk mempercepat pengembangan web.
 -------------------------------------------------------------------------------------------------------------------------------------------
 soal 1 : <img width="557" height="357" alt="image" src="https://github.com/user-attachments/assets/6b2df8cd-b6b7-4563-8b76-af67f911424f" />
+
 soal 2 : <img width="553" height="526" alt="image" src="https://github.com/user-attachments/assets/774c592f-2fab-430f-859a-a96bb27c7824" />
